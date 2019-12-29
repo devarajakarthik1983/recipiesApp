@@ -1,3 +1,5 @@
+
+
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
@@ -5,12 +7,11 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header/header.component';
 import { RecipesComponent } from './recipes/recipes.component';
-import { RecipeListComponent } from './recipe-list/recipe-list.component';
+import { RecipeListComponent } from './recipes/recipe-list/recipe-list.component';
 import { RecipeDetailComponent } from './recipes/recipe-detail/recipe-detail.component';
-import { RecipeItemlComponent } from './recipes/recipe-list/recipe-iteml/recipe-iteml.component';
-import { ShoppingListComponent } from './shopping-list/shopping-list.component';
 import { RecipeItemComponent } from './recipes/recipe-list/recipe-item/recipe-item.component';
 import { ShoppingEditComponent } from './shopping-list/shopping-edit/shopping-edit.component';
+import { ShoppingListComponent } from './shopping-list/shopping-list.component';
 
 @NgModule({
   declarations: [
@@ -18,10 +19,9 @@ import { ShoppingEditComponent } from './shopping-list/shopping-edit/shopping-ed
     HeaderComponent,
     RecipesComponent,
     RecipeListComponent,
-    RecipeDetailComponent,
-    RecipeItemlComponent,
-    ShoppingListComponent,
     RecipeItemComponent,
+    RecipeDetailComponent,
+    ShoppingListComponent,
     ShoppingEditComponent
   ],
   imports: [
